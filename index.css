@@ -38,6 +38,45 @@ body {
   text-decoration: none;
   color: black;
 }
+#nav_panel3 #menubar {
+  position: absolute;
+  top: 110px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  display: flex;
+  height: 300px;
+  width: 100%;
+  background-color: #2a2a2a;
+  justify-content: space-around;
+  display: none;
+}
+#nav_panel3 #menubar div h1 {
+  position: relative;
+  left: -13px;
+  color: #ffffff;
+  padding: 20px;
+}
+#nav_panel3 #menubar div h3 {
+  opacity: 0.6;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  padding: 5px;
+}
+#nav_panel3 #menubar div ul {
+  display: flex;
+  left: px;
+  list-style-type: none;
+  gap: 10px;
+}
+#nav_panel3 #menubar div p {
+  color: #AFE6C3;
+}
+#nav_panel3 #men a {
+  color: #008000;
+}
+#nav_panel3 #men a :hover #menubar {
+  display: block;
+}
 
 #nav_panel4 {
   background-color: #222222;
@@ -51,7 +90,7 @@ body {
 #hero_album {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(5, 1400px);
+  grid-template-columns: repeat(5, 1345px);
   overflow-x: scroll;
   scrollbar-width: none;
   animation: slide 25s infinite;
@@ -60,27 +99,22 @@ body {
   background-image: url(./images/img1.webp);
   background-size: contain;
   height: 500px;
-  width: 100%;
 }
 #hero_album #img2 {
   background-image: url(./images/img2.jpg);
   height: 500px;
-  width: 100%;
 }
 #hero_album #img3 {
   background-image: url(./images/img3.webp);
   height: 500px;
-  width: 100%;
 }
 #hero_album #img4 {
   background-image: url(./images/img4.jpg);
   height: 500px;
-  width: 100%;
 }
 #hero_album #img5 {
   background-image: url(./images/img5.webp);
   height: 500px;
-  width: 100%;
 }
 
 #hero_album1 {
@@ -101,14 +135,14 @@ body {
 
 #ads_panel {
   margin-top: 30px;
-  width: 80%;
-  margin-left: 100px;
+  width: 85%;
+  margin-left: 150px;
   display: grid;
-  grid-template-columns: repeat(3, 700px);
+  grid-template-columns: repeat(3, 800px);
   overflow-x: scroll;
   scrollbar-width: none;
   justify-content: center;
-  height: 150px;
+  height: 140px;
 }
 #ads_panel #ads1 {
   background-image: url(./images/radio1.webp);

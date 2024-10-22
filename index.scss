@@ -51,6 +51,51 @@ div{
         }
     }
 
+    
+  #menubar{
+    position: absolute;
+    top: 110px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-color: #2a2a2a;
+    justify-content: space-around;
+    display: none;
+    
+    div{
+        h1{ position: relative;
+            left: -13px;
+            color: #ffffff;
+            padding: 20px;
+        }
+        h3{
+            opacity: 0.6;
+            color: #ffffffcc;
+            font-size: 16px;
+            padding: 5px;
+        }
+        ul{
+            display: flex;
+            left : px;
+            list-style-type: none;
+            gap: 10px;
+        }
+        p{
+            color: #AFE6C3;
+        }
+    }
+}
+
+#men{
+    a{ color: #008000;
+    
+    :hover #menubar{
+    display: block;
+
+}}}
+
 }
 
 #nav_panel4{
@@ -68,7 +113,7 @@ div{
  #hero_album{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(5,1400px);
+    grid-template-columns: repeat(5,1345px);
     overflow-x: scroll;
     scrollbar-width: none;
     animation: slide 25s infinite;
@@ -78,30 +123,30 @@ div{
       background-image: url(./images/img1.webp);
       background-size: contain;
       height: 500px;
-      width: 100%;
+    //   width: 100%;
 
      }
     #img2{
         background-image: url(./images/img2.jpg) ;
         height: 500px;
-        width: 100%;
+        // width: 100%;
 
     }
     #img3{
         background-image: url(./images/img3.webp);
         height: 500px;
-        width: 100%;
+        // width: 100%;
               
     }
     #img4{
         background-image: url(./images/img4.jpg);
         height: 500px;
-        width: 100%;
+        // width: 100%;
     }
     #img5{
         background-image: url(./images/img5.webp) ;
         height: 500px;
-        width: 100%;
+        // width: 100%;
     }
 }
 #hero_album1{
@@ -122,27 +167,33 @@ div{
 }
 #ads_panel{
     margin-top: 30px;
-    width: 80% ;
-    margin-left: 100px;
+    width: 85% ;
+    margin-left: 150px;
     display: grid;
-    grid-template-columns: repeat(3,700px);
+    grid-template-columns: repeat(3,800px);
     overflow-x: scroll;
     scrollbar-width: none;
     justify-content: center;
-    height: 150px;
+    height: 140px;
     
     #ads1{
         background-image: url(./images/radio1.webp);
         width: 100%;
+        // height: px;
         
     }
     #ads2{
         background-image: url(./images/radio2.jpg);
         width: 100%;
+        // height: 200px;
+
+
     }
     #ads3{
         background-image: url(./images/radio3.webp);
         width: 100%;
+        // height: 200px;
+
     }
 }
 
