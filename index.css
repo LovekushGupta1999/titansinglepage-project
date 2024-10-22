@@ -54,6 +54,7 @@ body {
   grid-template-columns: repeat(5, 1400px);
   overflow-x: scroll;
   scrollbar-width: none;
+  animation: slide 25s infinite;
 }
 #hero_album #img1 {
   background-image: url(./images/img1.webp);
