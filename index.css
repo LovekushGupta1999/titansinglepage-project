@@ -377,6 +377,11 @@ body {
   transform: scale(1.05);
 }
 
+.tt {
+  color: red;
+  font-size: larger;
+}
+
 #footer {
   margin-top: 30px;
   margin-bottom: 0px;
