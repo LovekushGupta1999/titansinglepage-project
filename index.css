@@ -8,9 +8,9 @@ body {
 }
 
 #nav_panel1 marquee {
-  color: white;
+  color: rgb(252, 252, 255);
   background-color: black;
-  height: 35px;
+  line-height: 25px;
 }
 
 .flex {
@@ -71,11 +71,9 @@ body {
 #nav_panel3 #menubar div p {
   color: #AFE6C3;
 }
-#nav_panel3 #men a {
-  color: #008000;
-}
 #nav_panel3 #men a :hover #menubar {
   display: block;
+  color: #008000;
 }
 
 #nav_panel4 {

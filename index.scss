@@ -9,9 +9,9 @@ body{
 #nav_panel1{
      
     marquee{
-        color: white;
+        color: rgb(252, 252, 255);
         background-color: black;
-        height:35px; 
+        line-height: 25px;
         
         
          
@@ -35,6 +35,10 @@ div{
         height: 40px;
     }
 }
+
+
+
+
 
 }
 #nav_panel3{
@@ -65,6 +69,8 @@ div{
     display: none;
     
     div{
+
+
         h1{ position: relative;
             left: -13px;
             color: #ffffff;
@@ -89,12 +95,23 @@ div{
 }
 
 #men{
-    a{ color: #008000;
+    a{ 
     
     :hover #menubar{
     display: block;
+    color: #008000;
 
 }}}
+
+
+
+
+
+
+
+
+
+
 
 }
 
